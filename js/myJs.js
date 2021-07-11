@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "He luu em bé :v",
+  text2: "Vô chơi cái này vui lắm nè, dô!!!!!!!!!!!!",
+  text3: "Xin lỗi em bé, tha lỗi cho cá mặp nhe @@",
+  text4: "Nếu em ko trả lời mà thoát ra tức là tha lỗi rồi đó nha :v, khỏi nói nhiều",
+  text5: "Đi mà nói chuyện một mình đi !!!!!",
+  text6: "Hmmm, ok tha lỗi cho đó, love u <3",
+  text7: "Tha lỗi rồi thì nói cái gì đó ngọt ngào xem nào :v",
+  text8: "Gửi cho cá mặp <3",
+  text9: "Em bé yêu cá mặp, love u so much <3",
+  text10: "Hihi, yêu emmmmm <3",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+    "Xíu học xong rồi nhớ call ngta nhe, nhớ lắm ó",
   text12: "Okii lunn <3",
 };
 
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Nói đi đừng ngại ngùng :v'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -138,7 +138,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com";
+            window.location = "https://www.facebook.com/profile.php?id=100009079745494";
           },
         });
       }
